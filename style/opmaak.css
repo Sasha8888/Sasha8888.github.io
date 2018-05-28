@@ -1,0 +1,146 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: rgb(255, 255, 255);
+  font-family: 'Press Start 2P', Verdana, Arial, Helvetica, sans-serif;
+  background: grey url("../imagesHTMLCSS2/greyrepeat.jpg") repeat;
+}
+
+.wrapper {
+  width: 960px;
+}
+
+header {
+  background-image:url('../imagesHTMLCSS2/Peculiar Page head.png');
+  width: 960px;
+  height: 150px;
+  position:
+  fixed;
+    top: 0px;
+    left: 0px;
+  z-index: 10;
+}
+
+header:hover {
+  background-image:url('../imagesHTMLCSS2/Peculiar Page head_hover.png');
+  width: 960px;
+  height: 150px;
+  position:
+  fixed;
+    top: 0px;
+    left: 0px;
+  z-index: 10;
+}
+
+ul {
+  background: #080808;
+  width: 940px;
+  padding: 10px;
+    position:
+  fixed;
+    top: 150px;
+    left: 0px;
+  z-index: 9;
+}
+
+ul li {
+  background: #787878;
+  padding: 5px;
+  border: solid 2px white;
+  display: inline;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li:link{
+  background: #787878;
+  padding: 10px #787878;
+}
+
+ul li:hover{
+
+  background: red;
+  padding: 10px red;
+}
+
+ul li:active{
+  background: red;
+  padding: 10px red;
+}
+
+a:link{
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
+a:active{
+  color: black;
+}
+
+section {
+  padding: 5px;
+  margin: 5px;
+  border: solid 4px red;
+  max-width: 940px;
+  position:absolute;
+    top: 185px;
+    left: 0px;
+}
+
+section article {
+  border: 3px groove white;
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: black;
+}
+
+header h1 {
+  font-size: 300%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  text-align: right;
+  text-shadow: 5px 5px 7px #000000;
+}
+
+section:hover{
+  background: blue;
+}
+section article:hover{
+  background: red;
+}
+
+.badgeboard{
+  color: rgb(0, 0, 0);
+  position: relative;
+    top: 180px;
+    left: 0px;
+  z-index: 1;
+}
+
+footer {
+  background: #F0F0F0;
+  width: inherit;
+  border: 2px solid white;
+  position:fixed;
+    top: 681px;
+    left: 0px;
+  z-index: 8;
+}
+
+footer h3 {
+  text-align: left;
+  color: #000000;
+  font-weight: normal;
+  font-size: 90%;
+}
